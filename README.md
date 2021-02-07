@@ -1,3 +1,6 @@
+# Instagram
+
+This is an  Instagram clone application used to upload and display images. A user will sign in to post images and comment, or like on other users posts.
 
 ## Author
 
