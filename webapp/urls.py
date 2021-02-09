@@ -14,6 +14,6 @@ urlpatterns=[
     url(r'^follow/(\d+)/$',views.following, name = 'follow'),
     url(r'^othersprofile/(\d+)/$', views.others_profile, name='othersprofile'),
 ]
-# if settings.DEBUG:
-#     urlpatterns+= static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+if settings.DEBUG:
+    urlpatterns+= static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
     
